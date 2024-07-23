@@ -8,10 +8,23 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: #1F2937;
+    padding: 16px 0;
 }
 
 .header ul {
     display: flex;
     list-style-type: none;
     gap: 16px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-family: roboto, sans-serif;
+    color: #F9FAF8;
+}
+
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
 }
